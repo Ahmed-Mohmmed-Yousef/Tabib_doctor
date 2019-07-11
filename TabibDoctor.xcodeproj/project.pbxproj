@@ -12,6 +12,9 @@
 		24D9FE6722D640AD006BC664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D9FE6522D640AD006BC664 /* Main.storyboard */; };
 		24D9FE6922D640AE006BC664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D9FE6822D640AE006BC664 /* Assets.xcassets */; };
 		24D9FE6C22D640AE006BC664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D9FE6A22D640AE006BC664 /* LaunchScreen.storyboard */; };
+		24D9FE7922D6449D006BC664 /* LoginVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D9FE7822D6449D006BC664 /* LoginVC.storyboard */; };
+		24D9FE7B22D644E6006BC664 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D9FE7A22D644E6006BC664 /* LoginVC.swift */; };
+		24DD58DC22D6AD55008A6F80 /* Button+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DD58DB22D6AD55008A6F80 /* Button+Extention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		24D9FE6822D640AE006BC664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24D9FE6B22D640AE006BC664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24D9FE6D22D640AE006BC664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24D9FE7822D6449D006BC664 /* LoginVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginVC.storyboard; sourceTree = "<group>"; };
+		24D9FE7A22D644E6006BC664 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		24DD58DB22D6AD55008A6F80 /* Button+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+Extention.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,65 @@
 		24D9FE6022D640AD006BC664 /* TabibDoctor */ = {
 			isa = PBXGroup;
 			children = (
-				24D9FE6122D640AD006BC664 /* AppDelegate.swift */,
-				24D9FE6322D640AD006BC664 /* ViewController.swift */,
-				24D9FE6522D640AD006BC664 /* Main.storyboard */,
-				24D9FE6822D640AE006BC664 /* Assets.xcassets */,
-				24D9FE6A22D640AE006BC664 /* LaunchScreen.storyboard */,
-				24D9FE6D22D640AE006BC664 /* Info.plist */,
+				24D9FE7722D64408006BC664 /* AppDelegate */,
+				24D9FE7322D64330006BC664 /* Controller */,
+				24D9FE7522D64365006BC664 /* Model */,
+				24D9FE7622D643E5006BC664 /* Resource */,
+				24D9FE7422D64355006BC664 /* View */,
 			);
 			path = TabibDoctor;
+			sourceTree = "<group>";
+		};
+		24D9FE7322D64330006BC664 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24D9FE6322D640AD006BC664 /* ViewController.swift */,
+				24D9FE7A22D644E6006BC664 /* LoginVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		24D9FE7422D64355006BC664 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				24D9FE6A22D640AE006BC664 /* LaunchScreen.storyboard */,
+				24D9FE6522D640AD006BC664 /* Main.storyboard */,
+				24D9FE7822D6449D006BC664 /* LoginVC.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		24D9FE7522D64365006BC664 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		24D9FE7622D643E5006BC664 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				24D9FE6822D640AE006BC664 /* Assets.xcassets */,
+				24D9FE6D22D640AE006BC664 /* Info.plist */,
+				24DD58DA22D6AD2E008A6F80 /* Extentions */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		24D9FE7722D64408006BC664 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				24D9FE6122D640AD006BC664 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		24DD58DA22D6AD2E008A6F80 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				24DD58DB22D6AD55008A6F80 /* Button+Extention.swift */,
+			);
+			path = Extentions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +182,7 @@
 				24D9FE6C22D640AE006BC664 /* LaunchScreen.storyboard in Resources */,
 				24D9FE6922D640AE006BC664 /* Assets.xcassets in Resources */,
 				24D9FE6722D640AD006BC664 /* Main.storyboard in Resources */,
+				24D9FE7922D6449D006BC664 /* LoginVC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +195,8 @@
 			files = (
 				24D9FE6422D640AD006BC664 /* ViewController.swift in Sources */,
 				24D9FE6222D640AD006BC664 /* AppDelegate.swift in Sources */,
+				24DD58DC22D6AD55008A6F80 /* Button+Extention.swift in Sources */,
+				24D9FE7B22D644E6006BC664 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +344,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GZDD8NBYW6;
-				INFOPLIST_FILE = TabibDoctor/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TabibDoctor/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +362,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GZDD8NBYW6;
-				INFOPLIST_FILE = TabibDoctor/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TabibDoctor/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
