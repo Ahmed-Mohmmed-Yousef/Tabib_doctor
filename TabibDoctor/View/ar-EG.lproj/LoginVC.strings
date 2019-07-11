@@ -1,0 +1,27 @@
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "2ji-Wz-BtB"; */
+"2ji-Wz-BtB.placeholder" = "كلمة المرور";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "7Gt-b8-DPS"; */
+"7Gt-b8-DPS.normalTitle" = "تسجيل الدخول";
+
+/* Class = "UIButton"; normalTitle = "Phone"; ObjectID = "FYw-n9-kLM"; */
+"FYw-n9-kLM.normalTitle" = "التسجيل برقم الهاتف";
+
+/* Class = "UIButton"; normalTitle = "Do not have an email already?"; ObjectID = "cPd-y9-Tz0"; */
+"cPd-y9-Tz0.normalTitle" = "ليس لديك ايميل ؟";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "m1K-wp-fPQ"; */
+"m1K-wp-fPQ.text" = "تسحيل";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "osc-YJ-TpU"; */
+"osc-YJ-TpU.placeholder" = "البريد الالكتروني";
+
+/* Class = "UIButton"; normalTitle = "Do you forget password?"; ObjectID = "roZ-ZP-VRm"; */
+"roZ-ZP-VRm.normalTitle" = "نسيت كلمة المرور؟";
+
+/* Class = "UIButton"; normalTitle = "Sign With Google"; ObjectID = "ru1-bo-WUC"; */
+"ru1-bo-WUC.normalTitle" = "Google التسحيل باستخدام حساب";
+
+/* Class = "UINavigationItem"; title = "Login View"; ObjectID = "vAc-xf-wka"; */
+"vAc-xf-wka.title" = "شاشة تسجيل الدخول";

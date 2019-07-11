@@ -35,14 +35,14 @@ class LoginVC: UIViewController {
         let height = view.frame.height
         let animeView = UIView(frame: CGRect(x: 0, y: 0, width: width, height: height))
         animeView.backgroundColor = UIColor.white
-        let animeImage = UIImageView(frame: CGRect(x: (width/2 - 150), y: (height/2 - 250), width: 300, height: 300))
+        let animeImage = UIImageView(frame: CGRect(x: (width/2 - 100), y: (height/2 - 100), width: 200, height: 200))
         animeImage.image = #imageLiteral(resourceName: "caduceus")
         
         view.addSubview(animeView)
         animeView.addSubview(animeImage)
         
         let radians = CGFloat(200 * Double.pi / 180)
-        UIView.animate(withDuration: 2, delay: 0, options: [.curveEaseIn], animations: {
+        UIView.animate(withDuration: 1.2, delay: 0.4, options: [.curveEaseIn], animations: {
             animeImage.alpha = 0
             animeImage.transform = CGAffineTransform(rotationAngle: radians).scaledBy(x: 3, y: 3)
             

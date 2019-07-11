@@ -7,17 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24B4C27E22D723F6004144BF /* LoginVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B4C28022D723F6004144BF /* LoginVC.storyboard */; };
 		24D9FE6222D640AD006BC664 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D9FE6122D640AD006BC664 /* AppDelegate.swift */; };
 		24D9FE6422D640AD006BC664 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D9FE6322D640AD006BC664 /* ViewController.swift */; };
 		24D9FE6722D640AD006BC664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D9FE6522D640AD006BC664 /* Main.storyboard */; };
 		24D9FE6922D640AE006BC664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D9FE6822D640AE006BC664 /* Assets.xcassets */; };
 		24D9FE6C22D640AE006BC664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D9FE6A22D640AE006BC664 /* LaunchScreen.storyboard */; };
-		24D9FE7922D6449D006BC664 /* LoginVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D9FE7822D6449D006BC664 /* LoginVC.storyboard */; };
 		24D9FE7B22D644E6006BC664 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D9FE7A22D644E6006BC664 /* LoginVC.swift */; };
 		24DD58DC22D6AD55008A6F80 /* Button+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DD58DB22D6AD55008A6F80 /* Button+Extention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24B4C27F22D723F6004144BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LoginVC.storyboard; sourceTree = "<group>"; };
+		24B4C28122D72415004144BF /* ar-EG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-EG"; path = "ar-EG.lproj/Main.strings"; sourceTree = "<group>"; };
+		24B4C28222D72415004144BF /* ar-EG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-EG"; path = "ar-EG.lproj/LoginVC.strings"; sourceTree = "<group>"; };
 		24D9FE5E22D640AD006BC664 /* TabibDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabibDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24D9FE6122D640AD006BC664 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24D9FE6322D640AD006BC664 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +28,6 @@
 		24D9FE6822D640AE006BC664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24D9FE6B22D640AE006BC664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24D9FE6D22D640AE006BC664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		24D9FE7822D6449D006BC664 /* LoginVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginVC.storyboard; sourceTree = "<group>"; };
 		24D9FE7A22D644E6006BC664 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		24DD58DB22D6AD55008A6F80 /* Button+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+Extention.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,7 +85,7 @@
 			children = (
 				24D9FE6A22D640AE006BC664 /* LaunchScreen.storyboard */,
 				24D9FE6522D640AD006BC664 /* Main.storyboard */,
-				24D9FE7822D6449D006BC664 /* LoginVC.storyboard */,
+				24B4C28022D723F6004144BF /* LoginVC.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -163,6 +165,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"ar-EG",
 			);
 			mainGroup = 24D9FE5522D640AD006BC664;
 			productRefGroup = 24D9FE5F22D640AD006BC664 /* Products */;
@@ -182,7 +185,7 @@
 				24D9FE6C22D640AE006BC664 /* LaunchScreen.storyboard in Resources */,
 				24D9FE6922D640AE006BC664 /* Assets.xcassets in Resources */,
 				24D9FE6722D640AD006BC664 /* Main.storyboard in Resources */,
-				24D9FE7922D6449D006BC664 /* LoginVC.storyboard in Resources */,
+				24B4C27E22D723F6004144BF /* LoginVC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,10 +206,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		24B4C28022D723F6004144BF /* LoginVC.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24B4C27F22D723F6004144BF /* Base */,
+				24B4C28222D72415004144BF /* ar-EG */,
+			);
+			name = LoginVC.storyboard;
+			sourceTree = "<group>";
+		};
 		24D9FE6522D640AD006BC664 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				24D9FE6622D640AD006BC664 /* Base */,
+				24B4C28122D72415004144BF /* ar-EG */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -226,6 +239,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -287,6 +301,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
