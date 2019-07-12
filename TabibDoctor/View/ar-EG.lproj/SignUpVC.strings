@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "New Email"; ObjectID = "ehJ-lb-PCs"; */
+"ehJ-lb-PCs.text" = "حساب جديد";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "iZh-7v-FXm"; */
+"iZh-7v-FXm.placeholder" = "عنوان البريد الجديد";
+
+/* Class = "UIButton"; normalTitle = "Sign up"; ObjectID = "jfL-rj-aJ3"; */
+"jfL-rj-aJ3.normalTitle" = "تسجيل";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "oda-Bn-sP7"; */
+"oda-Bn-sP7.placeholder" = "كلمة المرور";

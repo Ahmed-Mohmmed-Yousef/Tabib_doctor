@@ -12,6 +12,8 @@
 		24B4C28822D7939F004144BF /* UITextField+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B4C28722D7939F004144BF /* UITextField+Extention.swift */; };
 		24BA99FF22D85FD600C5517C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA99FE22D85FD600C5517C /* Constants.swift */; };
 		24BA9A0922D8CE9D00C5517C /* DoctorDataVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24BA9A0B22D8CE9D00C5517C /* DoctorDataVC.storyboard */; };
+		24BA9A1122D8E74800C5517C /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA9A1022D8E74800C5517C /* SignUpVC.swift */; };
+		24BA9A1222D8EE3800C5517C /* SignUpVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24BA9A1422D8EE3800C5517C /* SignUpVC.storyboard */; };
 		24D9FE6222D640AD006BC664 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D9FE6122D640AD006BC664 /* AppDelegate.swift */; };
 		24D9FE6422D640AD006BC664 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D9FE6322D640AD006BC664 /* ViewController.swift */; };
 		24D9FE6722D640AD006BC664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D9FE6522D640AD006BC664 /* Main.storyboard */; };
@@ -30,6 +32,9 @@
 		24BA99FE22D85FD600C5517C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		24BA9A0A22D8CE9D00C5517C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/DoctorDataVC.storyboard; sourceTree = "<group>"; };
 		24BA9A0D22D8CEA900C5517C /* ar-EG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-EG"; path = "ar-EG.lproj/DoctorDataVC.strings"; sourceTree = "<group>"; };
+		24BA9A1022D8E74800C5517C /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		24BA9A1322D8EE3800C5517C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SignUpVC.storyboard; sourceTree = "<group>"; };
+		24BA9A1622D8EE3D00C5517C /* ar-EG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-EG"; path = "ar-EG.lproj/SignUpVC.strings"; sourceTree = "<group>"; };
 		24D9FE5E22D640AD006BC664 /* TabibDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabibDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24D9FE6122D640AD006BC664 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24D9FE6322D640AD006BC664 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +98,7 @@
 				24D9FE6322D640AD006BC664 /* ViewController.swift */,
 				24D9FE7A22D644E6006BC664 /* LoginVC.swift */,
 				24B4C28522D72C02004144BF /* DoctorDataVC.swift */,
+				24BA9A1022D8E74800C5517C /* SignUpVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -104,6 +110,7 @@
 				24D9FE6522D640AD006BC664 /* Main.storyboard */,
 				24BA9A0B22D8CE9D00C5517C /* DoctorDataVC.storyboard */,
 				24B4C28022D723F6004144BF /* LoginVC.storyboard */,
+				24BA9A1422D8EE3800C5517C /* SignUpVC.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -206,6 +213,7 @@
 				24D9FE6C22D640AE006BC664 /* LaunchScreen.storyboard in Resources */,
 				24D9FE6922D640AE006BC664 /* Assets.xcassets in Resources */,
 				24BA9A0922D8CE9D00C5517C /* DoctorDataVC.storyboard in Resources */,
+				24BA9A1222D8EE3800C5517C /* SignUpVC.storyboard in Resources */,
 				24D9FE6722D640AD006BC664 /* Main.storyboard in Resources */,
 				24B4C27E22D723F6004144BF /* LoginVC.storyboard in Resources */,
 			);
@@ -218,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24BA9A1122D8E74800C5517C /* SignUpVC.swift in Sources */,
 				24D9FE6422D640AD006BC664 /* ViewController.swift in Sources */,
 				24B4C28622D72C02004144BF /* DoctorDataVC.swift in Sources */,
 				24D9FE6222D640AD006BC664 /* AppDelegate.swift in Sources */,
@@ -247,6 +256,15 @@
 				24BA9A0D22D8CEA900C5517C /* ar-EG */,
 			);
 			name = DoctorDataVC.storyboard;
+			sourceTree = "<group>";
+		};
+		24BA9A1422D8EE3800C5517C /* SignUpVC.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24BA9A1322D8EE3800C5517C /* Base */,
+				24BA9A1622D8EE3D00C5517C /* ar-EG */,
+			);
+			name = SignUpVC.storyboard;
 			sourceTree = "<group>";
 		};
 		24D9FE6522D640AD006BC664 /* Main.storyboard */ = {
