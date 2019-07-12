@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		24B4C27E22D723F6004144BF /* LoginVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B4C28022D723F6004144BF /* LoginVC.storyboard */; };
+		24B4C28622D72C02004144BF /* DoctorDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B4C28522D72C02004144BF /* DoctorDataVC.swift */; };
+		24B4C28822D7939F004144BF /* UITextField+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B4C28722D7939F004144BF /* UITextField+Extention.swift */; };
+		24BA99FF22D85FD600C5517C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA99FE22D85FD600C5517C /* Constants.swift */; };
+		24BA9A0922D8CE9D00C5517C /* DoctorDataVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24BA9A0B22D8CE9D00C5517C /* DoctorDataVC.storyboard */; };
 		24D9FE6222D640AD006BC664 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D9FE6122D640AD006BC664 /* AppDelegate.swift */; };
 		24D9FE6422D640AD006BC664 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D9FE6322D640AD006BC664 /* ViewController.swift */; };
 		24D9FE6722D640AD006BC664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D9FE6522D640AD006BC664 /* Main.storyboard */; };
@@ -21,6 +25,11 @@
 		24B4C27F22D723F6004144BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LoginVC.storyboard; sourceTree = "<group>"; };
 		24B4C28122D72415004144BF /* ar-EG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-EG"; path = "ar-EG.lproj/Main.strings"; sourceTree = "<group>"; };
 		24B4C28222D72415004144BF /* ar-EG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-EG"; path = "ar-EG.lproj/LoginVC.strings"; sourceTree = "<group>"; };
+		24B4C28522D72C02004144BF /* DoctorDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorDataVC.swift; sourceTree = "<group>"; };
+		24B4C28722D7939F004144BF /* UITextField+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extention.swift"; sourceTree = "<group>"; };
+		24BA99FE22D85FD600C5517C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		24BA9A0A22D8CE9D00C5517C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/DoctorDataVC.storyboard; sourceTree = "<group>"; };
+		24BA9A0D22D8CEA900C5517C /* ar-EG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-EG"; path = "ar-EG.lproj/DoctorDataVC.strings"; sourceTree = "<group>"; };
 		24D9FE5E22D640AD006BC664 /* TabibDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabibDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24D9FE6122D640AD006BC664 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24D9FE6322D640AD006BC664 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +52,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24B4C28B22D79466004144BF /* Custom UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Custom UI";
+			sourceTree = "<group>";
+		};
 		24D9FE5522D640AD006BC664 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +92,7 @@
 			children = (
 				24D9FE6322D640AD006BC664 /* ViewController.swift */,
 				24D9FE7A22D644E6006BC664 /* LoginVC.swift */,
+				24B4C28522D72C02004144BF /* DoctorDataVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -85,6 +102,7 @@
 			children = (
 				24D9FE6A22D640AE006BC664 /* LaunchScreen.storyboard */,
 				24D9FE6522D640AD006BC664 /* Main.storyboard */,
+				24BA9A0B22D8CE9D00C5517C /* DoctorDataVC.storyboard */,
 				24B4C28022D723F6004144BF /* LoginVC.storyboard */,
 			);
 			path = View;
@@ -102,7 +120,9 @@
 			children = (
 				24D9FE6822D640AE006BC664 /* Assets.xcassets */,
 				24D9FE6D22D640AE006BC664 /* Info.plist */,
+				24B4C28B22D79466004144BF /* Custom UI */,
 				24DD58DA22D6AD2E008A6F80 /* Extentions */,
+				24BA99FE22D85FD600C5517C /* Constants.swift */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -119,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				24DD58DB22D6AD55008A6F80 /* Button+Extention.swift */,
+				24B4C28722D7939F004144BF /* UITextField+Extention.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -184,6 +205,7 @@
 			files = (
 				24D9FE6C22D640AE006BC664 /* LaunchScreen.storyboard in Resources */,
 				24D9FE6922D640AE006BC664 /* Assets.xcassets in Resources */,
+				24BA9A0922D8CE9D00C5517C /* DoctorDataVC.storyboard in Resources */,
 				24D9FE6722D640AD006BC664 /* Main.storyboard in Resources */,
 				24B4C27E22D723F6004144BF /* LoginVC.storyboard in Resources */,
 			);
@@ -197,8 +219,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				24D9FE6422D640AD006BC664 /* ViewController.swift in Sources */,
+				24B4C28622D72C02004144BF /* DoctorDataVC.swift in Sources */,
 				24D9FE6222D640AD006BC664 /* AppDelegate.swift in Sources */,
 				24DD58DC22D6AD55008A6F80 /* Button+Extention.swift in Sources */,
+				24BA99FF22D85FD600C5517C /* Constants.swift in Sources */,
+				24B4C28822D7939F004144BF /* UITextField+Extention.swift in Sources */,
 				24D9FE7B22D644E6006BC664 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +238,15 @@
 				24B4C28222D72415004144BF /* ar-EG */,
 			);
 			name = LoginVC.storyboard;
+			sourceTree = "<group>";
+		};
+		24BA9A0B22D8CE9D00C5517C /* DoctorDataVC.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24BA9A0A22D8CE9D00C5517C /* Base */,
+				24BA9A0D22D8CEA900C5517C /* ar-EG */,
+			);
+			name = DoctorDataVC.storyboard;
 			sourceTree = "<group>";
 		};
 		24D9FE6522D640AD006BC664 /* Main.storyboard */ = {

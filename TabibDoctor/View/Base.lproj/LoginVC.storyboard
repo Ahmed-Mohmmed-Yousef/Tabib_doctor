@@ -110,7 +110,7 @@
                                         <color key="backgroundColor" red="0.099202848970890045" green="0.63376253843307495" blue="0.70590078830718994" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="Ifz-PJ-CAJ"/>
-                                            <constraint firstAttribute="width" constant="100" id="uQd-qJ-dNA"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="uQd-qJ-dNA"/>
                                         </constraints>
                                         <state key="normal" title="Login">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -146,7 +146,10 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cPd-y9-Tz0">
-                                        <rect key="frame" x="48" y="526.5" width="279" height="30"/>
+                                        <rect key="frame" x="85" y="526.5" width="205" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="jaX-BG-8mu"/>
+                                        </constraints>
                                         <state key="normal" title="Do not have an email already?">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -197,16 +200,13 @@
                                     <constraint firstItem="X3H-d0-iAM" firstAttribute="bottom" secondItem="ru1-bo-WUC" secondAttribute="bottom" id="GNt-qt-eTV"/>
                                     <constraint firstItem="DyL-OO-i4o" firstAttribute="bottom" secondItem="FYw-n9-kLM" secondAttribute="bottom" id="Gbz-am-EhV"/>
                                     <constraint firstAttribute="trailing" secondItem="wKu-nC-kZI" secondAttribute="trailing" constant="24" id="IqE-Rp-dVB"/>
+                                    <constraint firstItem="cPd-y9-Tz0" firstAttribute="centerX" secondItem="27V-FP-58l" secondAttribute="centerX" id="Lhy-iC-ZRE"/>
                                     <constraint firstItem="XZB-Dn-cml" firstAttribute="centerX" secondItem="27V-FP-58l" secondAttribute="centerX" id="NyL-bR-lun"/>
                                     <constraint firstAttribute="trailing" secondItem="ru1-bo-WUC" secondAttribute="trailing" constant="16" id="OHk-hh-O6K"/>
                                     <constraint firstAttribute="trailing" secondItem="gJT-3B-vU0" secondAttribute="trailing" id="R9Q-Qx-2Q1"/>
-                                    <constraint firstItem="ru1-bo-WUC" firstAttribute="centerX" secondItem="27V-FP-58l" secondAttribute="centerX" id="Tgp-IZ-aQU"/>
-                                    <constraint firstItem="cPd-y9-Tz0" firstAttribute="leading" secondItem="27V-FP-58l" secondAttribute="leading" constant="48" id="VnM-uH-jMV"/>
                                     <constraint firstItem="wKu-nC-kZI" firstAttribute="top" secondItem="XZB-Dn-cml" secondAttribute="bottom" constant="8" id="a7r-aq-6QN"/>
-                                    <constraint firstItem="cPd-y9-Tz0" firstAttribute="centerX" secondItem="27V-FP-58l" secondAttribute="centerX" id="aAq-6z-hDQ"/>
                                     <constraint firstItem="7Gt-b8-DPS" firstAttribute="centerX" secondItem="27V-FP-58l" secondAttribute="centerX" id="anv-Fh-48L"/>
                                     <constraint firstItem="X3H-d0-iAM" firstAttribute="leading" secondItem="27V-FP-58l" secondAttribute="leading" constant="16" id="aqh-n9-6aK"/>
-                                    <constraint firstAttribute="trailing" secondItem="cPd-y9-Tz0" secondAttribute="trailing" constant="48" id="bCB-ja-hTe"/>
                                     <constraint firstItem="ru1-bo-WUC" firstAttribute="top" secondItem="roZ-ZP-VRm" secondAttribute="bottom" constant="64" id="cb2-3f-rAm"/>
                                     <constraint firstItem="DyL-OO-i4o" firstAttribute="top" secondItem="FYw-n9-kLM" secondAttribute="top" id="iuA-OF-2yX"/>
                                     <constraint firstItem="XZB-Dn-cml" firstAttribute="leading" secondItem="27V-FP-58l" secondAttribute="leading" constant="24" id="mDb-t0-16o"/>
@@ -217,7 +217,6 @@
                                     <constraint firstItem="wKu-nC-kZI" firstAttribute="leading" secondItem="27V-FP-58l" secondAttribute="leading" constant="24" id="wbU-oL-QyO"/>
                                     <constraint firstAttribute="trailing" secondItem="XZB-Dn-cml" secondAttribute="trailing" constant="24" id="yQL-ER-w8x"/>
                                     <constraint firstItem="gJT-3B-vU0" firstAttribute="top" secondItem="27V-FP-58l" secondAttribute="top" id="yeb-V0-WQb"/>
-                                    <constraint firstItem="FYw-n9-kLM" firstAttribute="centerX" secondItem="27V-FP-58l" secondAttribute="centerX" id="zSn-YN-bGb"/>
                                 </constraints>
                             </scrollView>
                         </subviews>

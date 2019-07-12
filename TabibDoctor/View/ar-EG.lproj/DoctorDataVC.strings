@@ -1,0 +1,27 @@
+
+/* Class = "UITextField"; placeholder = "City"; ObjectID = "6TJ-AZ-9rM"; */
+"6TJ-AZ-9rM.placeholder" = "المدينة";
+
+/* Class = "UITextField"; placeholder = "Address"; ObjectID = "9wJ-FN-lrU"; */
+"9wJ-FN-lrU.placeholder" = "العنوان";
+
+/* Class = "UITextField"; placeholder = "Specialization"; ObjectID = "BWW-h6-H7C"; */
+"BWW-h6-H7C.placeholder" = "التخصص";
+
+/* Class = "UITextField"; placeholder = "Details"; ObjectID = "I8r-gS-yTA"; */
+"I8r-gS-yTA.placeholder" = "تفاصيل";
+
+/* Class = "UITextField"; placeholder = "Cost advisory"; ObjectID = "Xuz-zu-luM"; */
+"Xuz-zu-luM.placeholder" = "تكلفة الكشف";
+
+/* Class = "UITextField"; placeholder = "Phone"; ObjectID = "lBc-ib-Hyw"; */
+"lBc-ib-Hyw.placeholder" = "رقم الهاتف للتراصل";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "pGF-Io-ShM"; */
+"pGF-Io-ShM.normalTitle" = "موافق";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "pu6-dD-8Os"; */
+"pu6-dD-8Os.placeholder" = "الاسم";
+
+/* Class = "UIButton"; normalTitle = "Select your photo"; ObjectID = "xY4-CC-ww0"; */
+"xY4-CC-ww0.normalTitle" = "اختر صورة شخصية";
