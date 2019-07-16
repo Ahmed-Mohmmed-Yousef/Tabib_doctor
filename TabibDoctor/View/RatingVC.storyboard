@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Rf3-ee-cAy">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="i1F-qT-uUe">
+            <objects>
+                <viewController id="Zr2-g5-4z2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="m3b-Vv-oLS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="JLi-DJ-jKF"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="TO1-w3-8DR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MGt-bd-sRg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2152" y="841"/>
+        </scene>
+        <!--Ratings-->
+        <scene sceneID="egC-TO-fu4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Rf3-ee-cAy" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Ratings" image="Ratings" id="gkc-Tq-Wrc"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="SN7-Sa-OOu">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.099202848969999993" green="0.63376253839999996" blue="0.70590078830000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Zr2-g5-4z2" kind="relationship" relationship="rootViewController" id="B7c-Pg-mY0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aqs-bn-Hdn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1425" y="840"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Ratings" width="25" height="25"/>
+    </resources>
+</document>

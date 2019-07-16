@@ -45,7 +45,7 @@
                                                 </constraints>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="email"/>
                                                 <connections>
                                                     <action selector="BEdit:" destination="xuS-aU-m7f" eventType="touchUpInside" id="TiL-eQ-dt0"/>
                                                     <action selector="doneEidting:" destination="xuS-aU-m7f" eventType="primaryActionTriggered" id="SnV-dl-n4s"/>
@@ -53,7 +53,7 @@
                                             </textField>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eVI-gj-Pal">
                                                 <rect key="frame" x="0.0" y="47" width="327" height="3"/>
-                                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.3296527863" green="0.7216314077" blue="0.70981115100000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="3" id="qpn-Va-kFW"/>
                                                 </constraints>
@@ -81,14 +81,14 @@
                                                 </constraints>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                                 <connections>
                                                     <action selector="doneEidting:" destination="xuS-aU-m7f" eventType="primaryActionTriggered" id="NYM-WT-P8l"/>
                                                 </connections>
                                             </textField>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NOM-cQ-79U">
                                                 <rect key="frame" x="0.0" y="47" width="327" height="3"/>
-                                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.3296527863" green="0.7216314077" blue="0.70981115100000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="3" id="OMd-UO-PDT"/>
                                                 </constraints>
@@ -195,7 +195,7 @@
                                     <constraint firstItem="FYw-n9-kLM" firstAttribute="top" secondItem="ru1-bo-WUC" secondAttribute="bottom" constant="32" id="5YA-1R-R5d"/>
                                     <constraint firstItem="cPd-y9-Tz0" firstAttribute="top" secondItem="FYw-n9-kLM" secondAttribute="bottom" constant="24" id="5yw-rT-bf0"/>
                                     <constraint firstItem="DyL-OO-i4o" firstAttribute="leading" secondItem="27V-FP-58l" secondAttribute="leading" constant="16" id="691-vY-HrT"/>
-                                    <constraint firstAttribute="bottom" secondItem="cPd-y9-Tz0" secondAttribute="bottom" constant="90.5" id="6dd-c9-2Pj"/>
+                                    <constraint firstAttribute="bottom" secondItem="cPd-y9-Tz0" secondAttribute="bottom" constant="24" id="6dd-c9-2Pj"/>
                                     <constraint firstItem="roZ-ZP-VRm" firstAttribute="centerX" secondItem="27V-FP-58l" secondAttribute="centerX" id="DvH-TL-Ldf"/>
                                     <constraint firstItem="X3H-d0-iAM" firstAttribute="bottom" secondItem="ru1-bo-WUC" secondAttribute="bottom" id="GNt-qt-eTV"/>
                                     <constraint firstItem="DyL-OO-i4o" firstAttribute="bottom" secondItem="FYw-n9-kLM" secondAttribute="bottom" id="Gbz-am-EhV"/>
@@ -232,6 +232,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Login View" id="vAc-xf-wka"/>
                     <connections>
+                        <outlet property="bottomConstrain" destination="6dd-c9-2Pj" id="xlk-l7-XMa"/>
                         <outlet property="emailLine" destination="eVI-gj-Pal" id="00u-JJ-7sG"/>
                         <outlet property="emailTF" destination="osc-YJ-TpU" id="yEM-pH-Pea"/>
                         <outlet property="googleBtn" destination="ru1-bo-WUC" id="hfO-DL-wXV"/>
@@ -275,4 +276,5 @@
         <image name="google_logo" width="75" height="75"/>
         <image name="iphone" width="100" height="100"/>
     </resources>
+    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
 </document>

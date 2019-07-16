@@ -29,7 +29,12 @@ class SignUpVC: UIViewController {
     }
     
     @IBAction func signUpPressed(_ sender: UIButton) {
+        guard emailTF.hasValue, passwordTF.hasValue, let email = emailTF.text, let passsword = passwordTF.text else {return}
         endEditing()
+        SignUpController.signUp(email, passsword) { (success) in
+            let vc = DoctorDataVC.getInstance() as! DoctorDataVC
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
     }
     
 }

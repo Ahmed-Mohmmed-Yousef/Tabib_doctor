@@ -105,6 +105,33 @@ class DoctorDataVC: UIViewController {
         }
     }
     
+    @IBAction func submitPressed(_ sender: UIButton) {
+        guard specializationTF.hasValue, cityTF.hasValue, nameTF.hasValue,phoneTF.hasValue,addressTF.hasValue,costTF.hasValue else{ return }
+        endEditing()
+        let cost = (costTF.text! as NSString).doubleValue
+        DoctorDataController.setDoctorData(imgPhoto.image!, specializationTF.text!, cityTF.text!, nameTF.text!, phoneTF.text!, detailTF.text!, addressTF.text!, cost) { (success) in
+            if success!{
+                
+                self.pushAlert(msg: "All Done", completion: {
+                    self.performSegue(withIdentifier: "backFromDoctorDataToProfile", sender: nil)
+                })
+            } else{
+                
+                self.pushAlert(msg: "Error accured", completion: nil)
+            }
+        }
+    }
+    
+    func pushAlert(msg: String, completion: (() -> ())?){
+        let alert = UIAlertController(title: "Info", message: msg, preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "OK", style: .cancel) { (action) in
+            if let completion = completion{
+                completion()
+            }
+        }
+        alert.addAction(okAction)
+        self.present(alert, animated: true, completion: nil)
+    }
     
 }
 

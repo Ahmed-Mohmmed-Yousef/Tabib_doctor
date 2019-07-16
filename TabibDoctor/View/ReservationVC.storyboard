@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="n2P-9h-D3g">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="CUh-Cd-I4e">
+            <objects>
+                <viewController id="Dno-xS-g85" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8Lt-dg-ieY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="gKh-jS-XeN"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QV1-Hn-MR0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C4T-xf-VVy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1567" y="929"/>
+        </scene>
+        <!--Reservations-->
+        <scene sceneID="Okf-2N-RBW">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="n2P-9h-D3g" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Reservations" image="Reservations" id="kJ5-fa-2e5"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Cd0-d3-QGT">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.099202848969999993" green="0.63376253839999996" blue="0.70590078830000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Dno-xS-g85" kind="relationship" relationship="rootViewController" id="a7b-xw-ZeY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gGV-tR-RPE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="578" y="930"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Reservations" width="24" height="24"/>
+    </resources>
+</document>

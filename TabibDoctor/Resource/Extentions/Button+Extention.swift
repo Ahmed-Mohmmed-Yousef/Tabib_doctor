@@ -17,4 +17,13 @@ extension UIButton{
         layer.shadowRadius = 5
         layer.shadowOffset = CGSize(width: 4, height: 8)
     }
+    
+    func AddRoundedShadowButn(){
+        layer.borderColor = UIColor.gray.cgColor
+        layer.borderWidth = 0.4
+        layer.cornerRadius = self.frame.width/2
+        layer.shadowOpacity = 0.25
+        layer.shadowRadius = 5
+        layer.shadowOffset = CGSize(width: 4, height: 8)
+    }
 }

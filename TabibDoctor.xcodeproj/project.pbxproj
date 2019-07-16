@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24A46D8722D9C18C005E1A3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24A46D8622D9C18B005E1A3C /* Assets.xcassets */; };
+		24A46D8922D9C4BC005E1A3C /* TimesVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24A46D8822D9C4BC005E1A3C /* TimesVC.storyboard */; };
+		24A46D8B22D9C93E005E1A3C /* TimesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A46D8A22D9C93E005E1A3C /* TimesVC.swift */; };
+		24A46D8D22D9CA04005E1A3C /* ReservationVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24A46D8C22D9CA04005E1A3C /* ReservationVC.storyboard */; };
+		24A46D8F22D9CA3B005E1A3C /* ReservationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A46D8E22D9CA3B005E1A3C /* ReservationVC.swift */; };
+		24A46D9122D9CB09005E1A3C /* RatingVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24A46D9022D9CB09005E1A3C /* RatingVC.storyboard */; };
+		24A46D9322D9CB4F005E1A3C /* RatingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A46D9222D9CB4F005E1A3C /* RatingVC.swift */; };
+		24A46D9522D9CE0E005E1A3C /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A46D9422D9CE0E005E1A3C /* LoginController.swift */; };
+		24A46D9722D9F7FD005E1A3C /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A46D9622D9F7FD005E1A3C /* SignUpController.swift */; };
+		24A46D9922D9FF71005E1A3C /* ViewController+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A46D9822D9FF71005E1A3C /* ViewController+Extention.swift */; };
+		24A46D9B22DA010F005E1A3C /* DoctorDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A46D9A22DA010F005E1A3C /* DoctorDataController.swift */; };
+		24A46D9D22DC5E62005E1A3C /* CustomUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A46D9C22DC5E62005E1A3C /* CustomUIImageView.swift */; };
+		24A46D9F22DCAA5F005E1A3C /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A46D9E22DCAA5F005E1A3C /* CustomButton.swift */; };
+		24A46DA122DDC01D005E1A3C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24A46DA022DDC01D005E1A3C /* GoogleService-Info.plist */; };
 		24B4C27E22D723F6004144BF /* LoginVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B4C28022D723F6004144BF /* LoginVC.storyboard */; };
 		24B4C28622D72C02004144BF /* DoctorDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B4C28522D72C02004144BF /* DoctorDataVC.swift */; };
 		24B4C28822D7939F004144BF /* UITextField+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B4C28722D7939F004144BF /* UITextField+Extention.swift */; };
@@ -14,18 +28,36 @@
 		24BA9A0922D8CE9D00C5517C /* DoctorDataVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24BA9A0B22D8CE9D00C5517C /* DoctorDataVC.storyboard */; };
 		24BA9A1122D8E74800C5517C /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA9A1022D8E74800C5517C /* SignUpVC.swift */; };
 		24BA9A1222D8EE3800C5517C /* SignUpVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24BA9A1422D8EE3800C5517C /* SignUpVC.storyboard */; };
+		24BA9A1822D8EF8D00C5517C /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA9A1722D8EF8D00C5517C /* ProfileVC.swift */; };
+		24BA9A1A22D8F15800C5517C /* ProfileVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24BA9A1922D8F15800C5517C /* ProfileVC.storyboard */; };
+		24BA9A1C22D9055A00C5517C /* UIImageView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA9A1B22D9055A00C5517C /* UIImageView+Extention.swift */; };
+		24BA9A1E22D90DBE00C5517C /* UIView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA9A1D22D90DBE00C5517C /* UIView+Extention.swift */; };
+		24BA9A2022D910F200C5517C /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA9A1F22D910F200C5517C /* CustomView.swift */; };
 		24D9FE6222D640AD006BC664 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D9FE6122D640AD006BC664 /* AppDelegate.swift */; };
 		24D9FE6422D640AD006BC664 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D9FE6322D640AD006BC664 /* ViewController.swift */; };
-		24D9FE6722D640AD006BC664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D9FE6522D640AD006BC664 /* Main.storyboard */; };
-		24D9FE6922D640AE006BC664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D9FE6822D640AE006BC664 /* Assets.xcassets */; };
 		24D9FE6C22D640AE006BC664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D9FE6A22D640AE006BC664 /* LaunchScreen.storyboard */; };
 		24D9FE7B22D644E6006BC664 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D9FE7A22D644E6006BC664 /* LoginVC.swift */; };
 		24DD58DC22D6AD55008A6F80 /* Button+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DD58DB22D6AD55008A6F80 /* Button+Extention.swift */; };
+		A10AD209EEF5FA3FD54BFCDD /* Pods_TabibDoctor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0355630576C6C69CAC91532F /* Pods_TabibDoctor.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0355630576C6C69CAC91532F /* Pods_TabibDoctor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabibDoctor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24A46D8622D9C18B005E1A3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24A46D8822D9C4BC005E1A3C /* TimesVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TimesVC.storyboard; sourceTree = "<group>"; };
+		24A46D8A22D9C93E005E1A3C /* TimesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimesVC.swift; sourceTree = "<group>"; };
+		24A46D8C22D9CA04005E1A3C /* ReservationVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ReservationVC.storyboard; sourceTree = "<group>"; };
+		24A46D8E22D9CA3B005E1A3C /* ReservationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationVC.swift; sourceTree = "<group>"; };
+		24A46D9022D9CB09005E1A3C /* RatingVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RatingVC.storyboard; sourceTree = "<group>"; };
+		24A46D9222D9CB4F005E1A3C /* RatingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingVC.swift; sourceTree = "<group>"; };
+		24A46D9422D9CE0E005E1A3C /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		24A46D9622D9F7FD005E1A3C /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		24A46D9822D9FF71005E1A3C /* ViewController+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extention.swift"; sourceTree = "<group>"; };
+		24A46D9A22DA010F005E1A3C /* DoctorDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorDataController.swift; sourceTree = "<group>"; };
+		24A46D9C22DC5E62005E1A3C /* CustomUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIImageView.swift; sourceTree = "<group>"; };
+		24A46D9E22DCAA5F005E1A3C /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		24A46DA022DDC01D005E1A3C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		24B4C27F22D723F6004144BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LoginVC.storyboard; sourceTree = "<group>"; };
-		24B4C28122D72415004144BF /* ar-EG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-EG"; path = "ar-EG.lproj/Main.strings"; sourceTree = "<group>"; };
 		24B4C28222D72415004144BF /* ar-EG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-EG"; path = "ar-EG.lproj/LoginVC.strings"; sourceTree = "<group>"; };
 		24B4C28522D72C02004144BF /* DoctorDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorDataVC.swift; sourceTree = "<group>"; };
 		24B4C28722D7939F004144BF /* UITextField+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extention.swift"; sourceTree = "<group>"; };
@@ -35,15 +67,20 @@
 		24BA9A1022D8E74800C5517C /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		24BA9A1322D8EE3800C5517C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SignUpVC.storyboard; sourceTree = "<group>"; };
 		24BA9A1622D8EE3D00C5517C /* ar-EG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-EG"; path = "ar-EG.lproj/SignUpVC.strings"; sourceTree = "<group>"; };
+		24BA9A1722D8EF8D00C5517C /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		24BA9A1922D8F15800C5517C /* ProfileVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileVC.storyboard; sourceTree = "<group>"; };
+		24BA9A1B22D9055A00C5517C /* UIImageView+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extention.swift"; sourceTree = "<group>"; };
+		24BA9A1D22D90DBE00C5517C /* UIView+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extention.swift"; sourceTree = "<group>"; };
+		24BA9A1F22D910F200C5517C /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		24D9FE5E22D640AD006BC664 /* TabibDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabibDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24D9FE6122D640AD006BC664 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24D9FE6322D640AD006BC664 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		24D9FE6622D640AD006BC664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		24D9FE6822D640AE006BC664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24D9FE6B22D640AE006BC664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24D9FE6D22D640AE006BC664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24D9FE7A22D644E6006BC664 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		24DD58DB22D6AD55008A6F80 /* Button+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+Extention.swift"; sourceTree = "<group>"; };
+		87D52C62BAA6E0B79B98DEA3 /* Pods-TabibDoctor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabibDoctor.debug.xcconfig"; path = "Target Support Files/Pods-TabibDoctor/Pods-TabibDoctor.debug.xcconfig"; sourceTree = "<group>"; };
+		9B3B12F8F9EFB1A37F1F21F6 /* Pods-TabibDoctor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabibDoctor.release.xcconfig"; path = "Target Support Files/Pods-TabibDoctor/Pods-TabibDoctor.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,15 +88,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10AD209EEF5FA3FD54BFCDD /* Pods_TabibDoctor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16265799B8F996BEF83A00FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87D52C62BAA6E0B79B98DEA3 /* Pods-TabibDoctor.debug.xcconfig */,
+				9B3B12F8F9EFB1A37F1F21F6 /* Pods-TabibDoctor.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		24B4C28B22D79466004144BF /* Custom UI */ = {
 			isa = PBXGroup;
 			children = (
+				24BA9A1F22D910F200C5517C /* CustomView.swift */,
+				24A46D9C22DC5E62005E1A3C /* CustomUIImageView.swift */,
+				24A46D9E22DCAA5F005E1A3C /* CustomButton.swift */,
 			);
 			path = "Custom UI";
 			sourceTree = "<group>";
@@ -69,6 +120,8 @@
 			children = (
 				24D9FE6022D640AD006BC664 /* TabibDoctor */,
 				24D9FE5F22D640AD006BC664 /* Products */,
+				16265799B8F996BEF83A00FE /* Pods */,
+				3850EE4E7E00F293EFDEF2BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +152,10 @@
 				24D9FE7A22D644E6006BC664 /* LoginVC.swift */,
 				24B4C28522D72C02004144BF /* DoctorDataVC.swift */,
 				24BA9A1022D8E74800C5517C /* SignUpVC.swift */,
+				24BA9A1722D8EF8D00C5517C /* ProfileVC.swift */,
+				24A46D8A22D9C93E005E1A3C /* TimesVC.swift */,
+				24A46D8E22D9CA3B005E1A3C /* ReservationVC.swift */,
+				24A46D9222D9CB4F005E1A3C /* RatingVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -107,10 +164,13 @@
 			isa = PBXGroup;
 			children = (
 				24D9FE6A22D640AE006BC664 /* LaunchScreen.storyboard */,
-				24D9FE6522D640AD006BC664 /* Main.storyboard */,
 				24BA9A0B22D8CE9D00C5517C /* DoctorDataVC.storyboard */,
 				24B4C28022D723F6004144BF /* LoginVC.storyboard */,
 				24BA9A1422D8EE3800C5517C /* SignUpVC.storyboard */,
+				24BA9A1922D8F15800C5517C /* ProfileVC.storyboard */,
+				24A46D8822D9C4BC005E1A3C /* TimesVC.storyboard */,
+				24A46D8C22D9CA04005E1A3C /* ReservationVC.storyboard */,
+				24A46D9022D9CB09005E1A3C /* RatingVC.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -118,6 +178,9 @@
 		24D9FE7522D64365006BC664 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				24A46D9422D9CE0E005E1A3C /* LoginController.swift */,
+				24A46D9622D9F7FD005E1A3C /* SignUpController.swift */,
+				24A46D9A22DA010F005E1A3C /* DoctorDataController.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -125,7 +188,8 @@
 		24D9FE7622D643E5006BC664 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				24D9FE6822D640AE006BC664 /* Assets.xcassets */,
+				24A46DA022DDC01D005E1A3C /* GoogleService-Info.plist */,
+				24A46D8622D9C18B005E1A3C /* Assets.xcassets */,
 				24D9FE6D22D640AE006BC664 /* Info.plist */,
 				24B4C28B22D79466004144BF /* Custom UI */,
 				24DD58DA22D6AD2E008A6F80 /* Extentions */,
@@ -147,8 +211,19 @@
 			children = (
 				24DD58DB22D6AD55008A6F80 /* Button+Extention.swift */,
 				24B4C28722D7939F004144BF /* UITextField+Extention.swift */,
+				24BA9A1B22D9055A00C5517C /* UIImageView+Extention.swift */,
+				24BA9A1D22D90DBE00C5517C /* UIView+Extention.swift */,
+				24A46D9822D9FF71005E1A3C /* ViewController+Extention.swift */,
 			);
 			path = Extentions;
+			sourceTree = "<group>";
+		};
+		3850EE4E7E00F293EFDEF2BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0355630576C6C69CAC91532F /* Pods_TabibDoctor.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24D9FE7022D640AE006BC664 /* Build configuration list for PBXNativeTarget "TabibDoctor" */;
 			buildPhases = (
+				AB4353965572199BF224CC61 /* [CP] Check Pods Manifest.lock */,
 				24D9FE5A22D640AD006BC664 /* Sources */,
 				24D9FE5B22D640AD006BC664 /* Frameworks */,
 				24D9FE5C22D640AD006BC664 /* Resources */,
+				998B8B33FC91A85ECA57AB1E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -211,15 +288,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				24D9FE6C22D640AE006BC664 /* LaunchScreen.storyboard in Resources */,
-				24D9FE6922D640AE006BC664 /* Assets.xcassets in Resources */,
+				24BA9A1A22D8F15800C5517C /* ProfileVC.storyboard in Resources */,
+				24A46D9122D9CB09005E1A3C /* RatingVC.storyboard in Resources */,
 				24BA9A0922D8CE9D00C5517C /* DoctorDataVC.storyboard in Resources */,
 				24BA9A1222D8EE3800C5517C /* SignUpVC.storyboard in Resources */,
-				24D9FE6722D640AD006BC664 /* Main.storyboard in Resources */,
+				24A46D8722D9C18C005E1A3C /* Assets.xcassets in Resources */,
+				24A46D8D22D9CA04005E1A3C /* ReservationVC.storyboard in Resources */,
+				24A46DA122DDC01D005E1A3C /* GoogleService-Info.plist in Resources */,
 				24B4C27E22D723F6004144BF /* LoginVC.storyboard in Resources */,
+				24A46D8922D9C4BC005E1A3C /* TimesVC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		998B8B33FC91A85ECA57AB1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TabibDoctor/Pods-TabibDoctor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TabibDoctor/Pods-TabibDoctor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TabibDoctor/Pods-TabibDoctor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB4353965572199BF224CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TabibDoctor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		24D9FE5A22D640AD006BC664 /* Sources */ = {
@@ -227,12 +350,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				24BA9A1122D8E74800C5517C /* SignUpVC.swift in Sources */,
+				24A46D9D22DC5E62005E1A3C /* CustomUIImageView.swift in Sources */,
 				24D9FE6422D640AD006BC664 /* ViewController.swift in Sources */,
 				24B4C28622D72C02004144BF /* DoctorDataVC.swift in Sources */,
+				24BA9A1822D8EF8D00C5517C /* ProfileVC.swift in Sources */,
 				24D9FE6222D640AD006BC664 /* AppDelegate.swift in Sources */,
+				24A46D9922D9FF71005E1A3C /* ViewController+Extention.swift in Sources */,
 				24DD58DC22D6AD55008A6F80 /* Button+Extention.swift in Sources */,
+				24BA9A1E22D90DBE00C5517C /* UIView+Extention.swift in Sources */,
+				24A46D9322D9CB4F005E1A3C /* RatingVC.swift in Sources */,
 				24BA99FF22D85FD600C5517C /* Constants.swift in Sources */,
+				24A46D9F22DCAA5F005E1A3C /* CustomButton.swift in Sources */,
+				24A46D9722D9F7FD005E1A3C /* SignUpController.swift in Sources */,
+				24A46D8B22D9C93E005E1A3C /* TimesVC.swift in Sources */,
+				24A46D8F22D9CA3B005E1A3C /* ReservationVC.swift in Sources */,
+				24BA9A1C22D9055A00C5517C /* UIImageView+Extention.swift in Sources */,
+				24BA9A2022D910F200C5517C /* CustomView.swift in Sources */,
+				24A46D9522D9CE0E005E1A3C /* LoginController.swift in Sources */,
 				24B4C28822D7939F004144BF /* UITextField+Extention.swift in Sources */,
+				24A46D9B22DA010F005E1A3C /* DoctorDataController.swift in Sources */,
 				24D9FE7B22D644E6006BC664 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,15 +401,6 @@
 				24BA9A1622D8EE3D00C5517C /* ar-EG */,
 			);
 			name = SignUpVC.storyboard;
-			sourceTree = "<group>";
-		};
-		24D9FE6522D640AD006BC664 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				24D9FE6622D640AD006BC664 /* Base */,
-				24B4C28122D72415004144BF /* ar-EG */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		24D9FE6A22D640AE006BC664 /* LaunchScreen.storyboard */ = {
@@ -407,6 +534,7 @@
 		};
 		24D9FE7122D640AE006BC664 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87D52C62BAA6E0B79B98DEA3 /* Pods-TabibDoctor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -425,6 +553,7 @@
 		};
 		24D9FE7222D640AE006BC664 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B3B12F8F9EFB1A37F1F21F6 /* Pods-TabibDoctor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

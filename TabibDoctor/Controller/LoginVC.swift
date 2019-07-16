@@ -16,17 +16,21 @@ class LoginVC: UIViewController {
     @IBOutlet weak var passwordTF: UITextField!
     @IBOutlet weak var googleBtn: UIButton!
     @IBOutlet weak var phoneBtn: UIButton!
+    @IBOutlet weak var bottomConstrain: NSLayoutConstraint!
     override func viewDidLoad() {
         super.viewDidLoad()
         // animation
         animateLogo()
         
         // Keyboard Register
-        self.registerForKeyboardNotification()
+        
         googleBtn.addRaduiasAndShadow()
         phoneBtn.addRaduiasAndShadow()
         loginBtn.addRaduiasAndShadow()
         
+        // text feild delegat
+        emailTF.delegate = self
+        passwordTF.delegate = self
     }
     
     func animateLogo(){
@@ -63,6 +67,14 @@ class LoginVC: UIViewController {
         sender.resignFirstResponder()
     }
     @IBAction func loginPressed(_ sender: Any) {
+        guard emailTF.hasValue, passwordTF.hasValue, let emaial = emailTF.text, let password = passwordTF.text else { return}
+        // end editing
+        endEditing()
+        LoginController.login(emaial, password) { (success) in
+            if success!{
+                self.dismiss(animated: true)
+            }
+        }
     }
     @IBAction func forgetPassworedPressed(_ sender: Any) {
     }
@@ -71,28 +83,28 @@ class LoginVC: UIViewController {
     @IBAction func signWithPhonePressed(_ sender: Any) {
     }
     @IBAction func notHaveAccountPressed(_ sender: Any) {
+        let signUpVC = SignUpVC.getInstance() as! SignUpVC
+        navigationController?.pushViewController(signUpVC, animated: true)
     }
     
     //  Keyboard controlle
-    func registerForKeyboardNotification(){
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWasShown(_:)), name: UIResponder.keyboardDidShowNotification, object: nil)
-        
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWaillBeHidden(_:)), name: UIResponder.keyboardWillHideNotification, object: nil)
-    }
     
-    @objc func keyboardWasShown(_ notificiation: NSNotification){
-        guard let info = notificiation.userInfo, let keyboardFrameValue = info[UIResponder.keyboardFrameBeginUserInfoKey] as? NSValue else { return }
-        let keyboardFrame = keyboardFrameValue.cgRectValue
-        let keyboardSize = keyboardFrame.size
-        
-        let contentInsets = UIEdgeInsets(top: 0, left: 0, bottom: keyboardSize.height, right: 0)
-        scrollView.contentInset = contentInsets
-        scrollView.scrollIndicatorInsets = contentInsets
-    }
+}
+extension LoginVC: UITextFieldDelegate{
     
-    @objc func keyboardWaillBeHidden(_ notificiation: NSNotification){
-        let contentInsets = UIEdgeInsets.zero
-        scrollView.contentInset = contentInsets
-        scrollView.scrollIndicatorInsets = contentInsets
+    //MARK:- text field Delegates
+    func endEditing(){
+        bottomConstrain.constant = 24
+        view.endEditing(true)
+    }
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        bottomConstrain.constant = 300
+    }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        endEditing()
+        return true
+    }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        endEditing()
     }
 }

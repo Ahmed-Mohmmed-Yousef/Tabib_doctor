@@ -16,9 +16,9 @@ extension UITextField{
         contentMode = .scaleAspectFit
         rightView = imageView
         rightViewMode = .unlessEditing
-        layer.borderColor = UIColor.red.cgColor
-        layer.borderWidth = 1
-        layer.cornerRadius = 5
+//        layer.borderColor = UIColor.red.cgColor
+//        layer.borderWidth = 1
+//        layer.cornerRadius = 5
         
         return false
     }

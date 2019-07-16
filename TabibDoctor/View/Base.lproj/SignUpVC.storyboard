@@ -158,9 +158,11 @@
                         <outlet property="emailTF" destination="iZh-7v-FXm" id="nGS-dR-eQ9"/>
                         <outlet property="passwordTF" destination="oda-Bn-sP7" id="GSz-84-sq7"/>
                         <outlet property="sinUpBtn" destination="jfL-rj-aJ3" id="Ij0-A2-7zr"/>
+                        <segue destination="rZB-XR-Ntn" kind="unwind" identifier="unwindToProfileVC" unwindAction="prepareForUnwindWithSegue:" id="oHJ-M3-4Qf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4PD-dM-YEP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="rZB-XR-Ntn" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="44.927536231884062" y="162.72321428571428"/>
         </scene>
